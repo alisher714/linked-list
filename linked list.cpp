@@ -59,6 +59,18 @@ int main()
 	third->next= NULL;
 	
 	second->next = third;
+
+    node* fourth= new node();
+	fourth->data= 40;
+	fourth->next= NULL;
+	
+	third->next = fourth;
+
+    node* fifth= new node();
+	fifth->data= 50;
+	fifth->next= NULL;
+	
+	fourth->next = fifth;
 	
 	
 	mylist.printlist();
